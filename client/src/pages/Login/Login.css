@@ -21,7 +21,7 @@
   font-family: "Montserrat", sans-serif;
   color: var(--text-color-dark);
   animation: fadeIn 1s forwards;
-  box-sizing: border-box; /* Ajouté pour éviter que le padding ne déborde */
+  box-sizing: border-box;
 }
 
 /* Animation fadein card */
@@ -63,7 +63,7 @@
   background-color: var(--secondary-bg-color);
   color: var(--text-color-light);
   margin-top: 5px;
-  box-sizing: border-box; /* Ajouté pour inclure padding et bordure dans la largeur totale */
+  box-sizing: border-box;
 }
 
 /* Focus state for input fields */
