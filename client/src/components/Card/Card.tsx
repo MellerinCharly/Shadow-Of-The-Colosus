@@ -19,32 +19,37 @@ const Card: React.FC<IdolCardProps> = ({
   };
 
   return (
-    <div className="idol-card">
-      <img src={idolImage} alt={idolName} className="idol-image" />
-      <button
-        type="button"
-        onClick={toggleDescription}
-        className="view-description-button"
-      >
-        More...
-      </button>
+    <article className="idol-card-container">
+      <section className="idol-card">
+        <figure>
+          <img src={idolImage} alt={idolName} className="idol-image" />
+          <figcaption>{idolName}</figcaption>
+          <button
+            type="button"
+            onClick={toggleDescription}
+            className="view-description-button"
+          >
+            More...
+          </button>
+        </figure>
 
-      {showDescription && (
-        <div className="description-overlay">
-          <div className="description-content">
-            <h3>{idolName}</h3>
-            <p>{idolDescription}</p>
-            <button
-              type="button"
-              onClick={toggleDescription}
-              className="close-button"
-            >
-              Fermer
-            </button>
-          </div>
-        </div>
-      )}
-    </div>
+        {showDescription && (
+          <section className="description-overlay active">
+            <header className="description-content">
+              <h3>{idolName}</h3>
+              <p>{idolDescription}</p>
+              <button
+                type="button"
+                onClick={toggleDescription}
+                className="close-button"
+              >
+                Fermer
+              </button>
+            </header>
+          </section>
+        )}
+      </section>
+    </article>
   );
 };
 
