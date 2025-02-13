@@ -43,7 +43,7 @@ const Card: React.FC<IdolCardProps> = ({
                 onClick={toggleDescription}
                 className="close-button"
               >
-                Fermer
+                Close
               </button>
             </header>
           </section>

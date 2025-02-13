@@ -1,0 +1,110 @@
+/* Global variables for colors (already defined) */
+:root {
+  --primary-bg-color: #beb9ab;
+  --secondary-bg-color: #434343;
+  --accent-color: #8397b3;
+  --overlay-bg-color: rgba(0, 0, 0, 0.7);
+  --text-color-light: #e3e3e3;
+  --text-color-dark: #2c3e50;
+  --button-bg-color: #9ba081;
+  --button-hover-bg-color: #505b47;
+}
+
+/* Login card container */
+.login-card {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: var(--primary-bg-color);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  font-family: "Montserrat", sans-serif;
+  color: var(--text-color-dark);
+  animation: fadeIn 1s forwards;
+  box-sizing: border-box;
+}
+
+/* Animation fadein card */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Form styling */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Group each form element with a specific margin */
+.login-form .form-group {
+  margin-bottom: 15px;
+}
+
+/* Styling for label elements */
+.login-form .form-group label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: var(--text-color-dark);
+}
+
+/* Input field styles */
+.login-form .form-group input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid var(--secondary-bg-color);
+  border-radius: 4px;
+  background-color: var(--secondary-bg-color);
+  color: var(--text-color-light);
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+/* Focus state for input fields */
+.login-form .form-group input:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+/* Styling for submit button */
+.login-form .btn-submit {
+  padding: 12px;
+  background-color: var(--button-bg-color);
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 20px;
+}
+
+/* Hover effect on submit button */
+.login-form .btn-submit:hover {
+  background-color: var(--button-hover-bg-color);
+  transform: scale(1.05);
+}
+
+/* Placeholder text styling */
+.login-form .form-group input::placeholder {
+  color: var(--text-color-light);
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  .login-card {
+    padding: 15px;
+  }
+  .login-form .form-group input {
+    padding: 10px;
+  }
+  .login-form .btn-submit {
+    font-size: 1rem;
+  }
+}
