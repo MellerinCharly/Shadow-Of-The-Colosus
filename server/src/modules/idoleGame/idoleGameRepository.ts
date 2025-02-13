@@ -16,6 +16,15 @@ class IdoleGameRepository {
     );
     return result.insertId;
   }
+
+  async update(idole: IdoleGame) {
+    const [result] = await databaseClient.query<Result>(
+      "UPDATE idole SET name = ?, image = ?, text = ? WHERE id = ?",
+      [idole.name, idole.image, idole.text, idole.id],
+    );
+
+    return result.affectedRows;
+  }
 }
 
 export default new IdoleGameRepository();

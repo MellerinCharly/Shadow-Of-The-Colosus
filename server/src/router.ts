@@ -19,5 +19,6 @@ import idoleGame from "./modules/idoleGame/idoleGameActions";
 
 router.get("/api/idole", idoleGame.browse);
 router.post("/api/idole", idoleGame.add);
+router.put("/api/idole/:id", idoleGame.edit);
 
 export default router;
