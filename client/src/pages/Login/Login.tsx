@@ -50,6 +50,15 @@ const Login: React.FC = () => {
         <button type="submit" className="btn-submit">
           Log In
         </button>
+
+        <div className="links">
+          <a href="/forgot-password" className="forgot-password">
+            Forgot password ?
+          </a>
+          <a href="/create-account" className="create-account">
+            Create an account
+          </a>
+        </div>
       </form>
     </section>
   );

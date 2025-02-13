@@ -108,3 +108,21 @@
     font-size: 1rem;
   }
 }
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.forgot-password,
+.create-account {
+  color: var(--text-color-dark);
+  text-decoration: none;
+}
+
+.forgot-password:hover,
+.create-account:hover {
+  text-decoration: underline;
+}
