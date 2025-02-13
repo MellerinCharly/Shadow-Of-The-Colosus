@@ -118,8 +118,9 @@ figure.fade {
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0;
-  visibility: hidden;
+  opacity: 1;
+  visibility: visible;
+  z-index: 100;
   transition: opacity 300ms ease, visibility 300ms ease;
   font-family: "Montserrat", sans-serif;
 }

@@ -1,17 +1,8 @@
 import { useState } from "react";
+import type { IdoleGameI } from "../../types/app";
 import "./Card.css";
 
-interface IdolCardProps {
-  idolImage: string;
-  idolName: string;
-  idolDescription: string;
-}
-
-const Card: React.FC<IdolCardProps> = ({
-  idolImage,
-  idolName,
-  idolDescription,
-}) => {
+function Card({ name, image, text }: IdoleGameI) {
   const [showDescription, setShowDescription] = useState(false);
 
   const toggleDescription = () => {
@@ -22,22 +13,31 @@ const Card: React.FC<IdolCardProps> = ({
     <article className="idol-card-container">
       <section className="idol-card">
         <figure>
-          <img src={idolImage} alt={idolName} className="idol-image" />
-          <figcaption>{idolName}</figcaption>
+          <img
+            src={image}
+            alt={`Colosse named ${name}`}
+            className="idol-image"
+          />
+          <figcaption>{name}</figcaption>
+
+          {/* Bouton "More..." ou "Close" en fonction de l'état */}
           <button
             type="button"
             onClick={toggleDescription}
             className="view-description-button"
           >
-            More...
+            {showDescription ? "Close" : "More..."}
           </button>
         </figure>
 
+        {/* Affichage de la description avec un overlay */}
         {showDescription && (
           <section className="description-overlay active">
             <header className="description-content">
-              <h3>{idolName}</h3>
-              <p>{idolDescription}</p>
+              <h3>{name}</h3>
+              <p>{text}</p>
+
+              {/* Bouton "Retour" pour fermer la description */}
               <button
                 type="button"
                 onClick={toggleDescription}
@@ -51,6 +51,6 @@ const Card: React.FC<IdolCardProps> = ({
       </section>
     </article>
   );
-};
+}
 
 export default Card;
