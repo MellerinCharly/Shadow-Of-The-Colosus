@@ -8,6 +8,7 @@
   --text-color-dark: #2c3e50;
   --button-bg-color: #9ba081;
   --button-hover-bg-color: #505b47;
+  --active-button-bg-color: #6f7a55; /* Couleur du bouton actif */
 }
 
 /* Login card container */
@@ -128,4 +129,34 @@
 .login-form .form-group textarea:focus {
   outline: none;
   border-color: var(--accent-color);
+}
+
+/* Styling for the button group at the top */
+.button-group {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.form-button {
+  padding: 10px 20px;
+  background-color: var(--button-bg-color);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect for the buttons */
+.form-button:hover {
+  background-color: var(--button-hover-bg-color);
+  transform: scale(1.05);
+}
+
+/* Active button state */
+.form-button.active {
+  background-color: var(--active-button-bg-color);
+  transform: scale(1.05);
 }

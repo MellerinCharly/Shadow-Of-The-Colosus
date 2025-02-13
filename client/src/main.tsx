@@ -7,7 +7,6 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 // Import the main app component
 import App from "./App";
-
 import CreateIdole from "./pages/CreateIdole";
 import Login from "./pages/Login/Login";
 // Import additional components for new routes
