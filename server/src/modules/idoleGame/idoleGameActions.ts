@@ -48,4 +48,20 @@ const edit: RequestHandler = async (req, res, next) => {
   }
 };
 
-export default { browse, add, edit };
+const deleteIdole: RequestHandler = async (req, res, next) => {
+  try {
+    const id = Number(req.params.id);
+
+    const deleteResult = await idoleGameRepository.delete(id);
+
+    if (deleteResult) {
+      res.status(204).send({ message: "Idole deleted successfully" });
+    } else {
+      res.status(404).send("Idole not found or could not be deleted");
+    }
+  } catch (err) {
+    next(err);
+  }
+};
+
+export default { browse, add, edit, deleteIdole };
