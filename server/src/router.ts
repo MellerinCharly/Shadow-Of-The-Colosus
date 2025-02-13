@@ -15,8 +15,9 @@ router.post("/api/items", itemActions.add);
 
 /* ************************************************************************* */
 
-import idoleGame from "./modules/idoleGame/idoleGame";
+import idoleGame from "./modules/idoleGame/idoleGameActions";
 
 router.get("/api/idole", idoleGame.browse);
+router.post("/api/idole", idoleGame.add);
 
 export default router;
