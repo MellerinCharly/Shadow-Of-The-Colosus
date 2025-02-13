@@ -37,10 +37,8 @@ VSCode (version 1.97)
 
 ## ~ Résultat ~
 
-![Résultat]()
 ![Résultat](https://i.ibb.co/pjMHftNd/Capture-d-e-cran-2025-02-13-a-17-04-38.png)
 ![Résultat](https://i.ibb.co/rf1xMDQ6/Capture-d-e-cran-2025-02-13-a-17-02-14.png)
-![Résultat]()
 
 
 ## ~ Auteur ~
