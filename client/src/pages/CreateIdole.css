@@ -108,3 +108,24 @@
     font-size: 1rem;
   }
 }
+
+/* Styling for textarea (description field) */
+.login-form .form-group textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid var(--secondary-bg-color);
+  border-radius: 4px;
+  background-color: var(--secondary-bg-color);
+  color: var(--text-color-light);
+  margin-top: 5px;
+  box-sizing: border-box;
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Focus state for textarea fields */
+.login-form .form-group textarea:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}

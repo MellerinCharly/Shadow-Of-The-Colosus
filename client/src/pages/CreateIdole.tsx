@@ -4,6 +4,7 @@ import "./CreateIdole.css";
 const CreateIdole: React.FC = () => {
   const [name, setName] = useState<string>("");
   const [email, setEmail] = useState<string>("");
+  const [description, setDescription] = useState<string>("");
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -11,7 +12,7 @@ const CreateIdole: React.FC = () => {
 
   return (
     <section className="login-card">
-      <h2>Idole</h2>
+      <h2>Add an Idole</h2>
       <form onSubmit={handleSubmit} className="login-form">
         <fieldset className="form-group">
           <label htmlFor="name">Name:</label>
@@ -31,6 +32,16 @@ const CreateIdole: React.FC = () => {
             id="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+        </fieldset>
+
+        <fieldset className="form-group">
+          <label htmlFor="description">Description:</label>
+          <textarea
+            id="description"
+            value={description}
+            onChange={(e) => setDescription(e.target.value)}
             required
           />
         </fieldset>
