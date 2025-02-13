@@ -1,6 +1,7 @@
 import Card from "./components/Card/Card";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
+import Title from "./components/Title/Title";
 import "./App.css";
 import { useEffect, useState } from "react";
 import type { IdoleGameI } from "./types/app";
@@ -19,6 +20,7 @@ function App() {
       <header>
         <nav>
           <Header />
+          <Title />
         </nav>
       </header>
 

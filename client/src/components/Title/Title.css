@@ -1,0 +1,15 @@
+/* Page container */
+.page-container {
+  text-align: center;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+/* Section title */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--text-color-dark);
+  margin-bottom: 200px;
+  text-align: center;
+}
