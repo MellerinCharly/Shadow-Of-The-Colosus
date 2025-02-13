@@ -11,10 +11,9 @@ class IdoleGameRepository {
 
   async create(idoleGame: IdoleGame) {
     const [result] = await databaseClient.query<Result>(
-      "INSERT INTO ingredient (name, image, text) VALUES (?, ?, ?)",
+      "INSERT INTO idole (name, image, text) VALUES (?, ?, ?)",
       [idoleGame.name, idoleGame.image, idoleGame.text],
     );
-
     return result.insertId;
   }
 }
