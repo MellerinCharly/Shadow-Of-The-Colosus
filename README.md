@@ -18,6 +18,10 @@ une Idole.
 
 HTML, CSS, JS, TypeScript.
 
+## MCD
+
+![MCD](https://i.ibb.co/4w7PFgxs/Capture-d-e-cran-2025-02-14-a-09-00-46.png)
+
 ##  Étapes et processus 
 
 - [x] Création de la nav-bar
@@ -33,7 +37,7 @@ HTML, CSS, JS, TypeScript.
 
 ## Fabriqué avec 
 
-VSCode (version 1.97)
+VSCode (version 1.97), Git, Github.
 
 ## Une partie du résultat 
 
