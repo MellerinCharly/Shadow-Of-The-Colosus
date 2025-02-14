@@ -14,11 +14,11 @@ une Idole.
 
 ![Maquettes](https://i.ibb.co/ds2BKHMy/Capture-d-e-cran-2025-02-13-a-16-55-19.png)
 
-## ~ Pré-requis ~
+##  Pré-requis 
 
 HTML, CSS, JS, TypeScript.
 
-## ~ Étapes et processus ~
+##  Étapes et processus 
 
 - [x] Création de la nav-bar
 - [x] Création du footer
@@ -31,17 +31,17 @@ HTML, CSS, JS, TypeScript.
 - [x] Responsive
 
 
-## ~ Fabriqué avec ~
+## Fabriqué avec 
 
 VSCode (version 1.97)
 
-## ~ Une partie du résultat ~
+## Une partie du résultat 
 
 ![Résultat](https://i.ibb.co/pjMHftNd/Capture-d-e-cran-2025-02-13-a-17-04-38.png)
 ![Résultat](https://i.ibb.co/rf1xMDQ6/Capture-d-e-cran-2025-02-13-a-17-02-14.png)
 
 
-## ~ Auteur ~
+## Auteur 
 
 - Charly MELLERIN
 - Github : [MellerinCharly](https://github.com/MellerinCharly)
