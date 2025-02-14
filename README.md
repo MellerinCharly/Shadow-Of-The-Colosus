@@ -35,6 +35,7 @@ HTML, CSS, JS, TypeScript.
 - [x] Responsive
 - [ ] Favicone
 - [ ] Catégorie dans "manage idole"
+- [ ] Bouttons retour 
 
 
 ## Fabriqué avec 
