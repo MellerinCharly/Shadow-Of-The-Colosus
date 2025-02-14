@@ -33,6 +33,8 @@ HTML, CSS, JS, TypeScript.
 - [x] Création du CRUD
 - [ ] Mise en relation du Back avec le Front (en cours)
 - [x] Responsive
+- [ ] Favicone
+- [ ] Catégorie dans "manage idole"
 
 
 ## Fabriqué avec 
