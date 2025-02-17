@@ -1,4 +1,4 @@
-# Projet Shadow Of The Colossus
+# ~ Projet Shadow Of The Colossus ~
 
 Pour débuter ce projet je suis parti sur l'idée d'ajouter les colosses du jeu-vidéo Shadow of the Colossus (nommé Idole) et de pouvoir en ajouter, en modifier et en supprimer.
 
