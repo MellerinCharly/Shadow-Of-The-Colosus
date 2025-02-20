@@ -2,7 +2,7 @@
 
 Pour débuter ce projet je suis parti sur l'idée d'ajouter les colosses du jeu-vidéo Shadow of the Colossus (nommé Idole) et de pouvoir en ajouter, en modifier et en supprimer.
 
-## User Stories 
+## ~ User Stories ~
 
 - En tant qu'utilisateur je peux voir les Idoles en page d'accueil présentes
 en BDD.
