@@ -10,7 +10,7 @@ en BDD.
 - En tant qu'utilisateur connecté je peux en ajouter, modifier et supprimer 
 une Idole.
 
-## Wireframe 
+## ~ Wireframe ~
 
 ![Maquettes](https://i.ibb.co/ds2BKHMy/Capture-d-e-cran-2025-02-13-a-16-55-19.png)
 
