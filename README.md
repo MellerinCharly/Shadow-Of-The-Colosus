@@ -14,7 +14,7 @@ une Idole.
 
 ![Maquettes](https://i.ibb.co/ds2BKHMy/Capture-d-e-cran-2025-02-13-a-16-55-19.png)
 
-##  Pré-requis 
+## ~ Pré-requis ~
 
 HTML, CSS, JS, TypeScript.
 
