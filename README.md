@@ -22,7 +22,7 @@ HTML, CSS, JS, TypeScript.
 
 ![MCD](https://i.ibb.co/4w7PFgxs/Capture-d-e-cran-2025-02-14-a-09-00-46.png)
 
-##  Étapes et processus 
+## ~ Étapes et processus ~
 
 - [x] Création de la nav-bar
 - [x] Création du footer
