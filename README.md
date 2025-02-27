@@ -39,7 +39,7 @@ HTML, CSS, JS, TypeScript.
 - [ ] Page d'entrée
 
 
-## Fabriqué avec 
+## ~ Fabriqué avec ~
 
 VSCode (version 1.97), Git, Github.
 
