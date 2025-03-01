@@ -49,7 +49,7 @@ VSCode (version 1.97), Git, Github.
 ![Résultat](https://i.ibb.co/rf1xMDQ6/Capture-d-e-cran-2025-02-13-a-17-02-14.png)
 
 
-## Auteur 
+## ~ Auteur ~
 
 - Charly MELLERIN
 - Github : [MellerinCharly](https://github.com/MellerinCharly)
